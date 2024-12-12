@@ -1,0 +1,37 @@
+/* 
+    Document   : page-nav
+    Created on : Dec 16, 2017, 3:46:41 PM
+    Author     : PHILOMEN
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.right-arrow {
+	display: inline-block;
+	position: relative;	
+        background: linear-gradient(red, black);
+        border-radius:4px;        
+        color: yellow;
+        font-weight: bold;
+        font-size: 12px;
+        font-family: cambria;
+	padding: 1px;
+        border: 2px solid maroon;
+        min-width: 100px;
+        text-align: center;
+}
+.right-arrow:after {
+	content: '';
+	display: block;  
+	position: absolute;
+	left: 100%;
+	top: 50%;
+	margin-top: -10px;
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid maroon;
+}
+

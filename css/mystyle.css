@@ -1,0 +1,98 @@
+/* 
+    Document   : mystyle
+    Created on : Nov 30, 2016, 9:37:25 PM
+    Author     : TMSA
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+ 
+.h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+
+.jumbotron {
+    background: #fff   repeat scroll 0 0;
+    font-family: "Colonna MT";
+    color: green;
+    height:700px;
+    padding: 100px 25px;
+    padding-bottom: 0px;
+    text-shadow : 0.01em 0.01em 0.01em red;
+    text-decoration: none;
+}
+
+.container-fluid {
+    padding: 60px 50px;
+
+}
+.bg-grey {
+    background-color: #f6f6f6;
+}
+.logo-small {
+    color: #f4511e;
+    font-size: 50px;
+}
+.logo {
+    color: crimson;
+    font-size: 150px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    z-index: 9999;
+    border: 0;
+    font-size: 14px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 1.5px;
+    font-family: cambria;   	
+	font-weight: bold;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #800000 !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: navy !important;    	
+    font-weight: bold;
+    text-decoration: none;							/* Main manu Font Color */
+    text-shadow: 0 0px 1px rgba(0, 0, 0, 0.35); 
+    letter-spacing: 1.5px;		
+    /*border-bottom: 2px solid #B00000;
+    transition: 0.4s;*/
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+@keyframes slide {
+    0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+} 
+100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+}	
+}
+@-webkit-keyframes slide {
+    0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+} 
+100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+}
+}
+@media screen and (max-width: 768px) {
+
+}
